@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
       target: 'ol-map',
       view: new View({
         center: fromLonLat(place),
-        zoom: 18
+        zoom: 18,
       }),
       layers: [
         new TileLayer({
@@ -52,6 +52,10 @@ export class AppComponent implements OnInit {
           },
         }),
       ],
+    });
+
+    this.map.on('singleclick', (event) => {
+      console.log({ event });
     });
   }
 }
