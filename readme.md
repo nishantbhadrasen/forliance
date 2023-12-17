@@ -7,5 +7,5 @@
 
 ### Screenshots
 
-[Popup](./screenshots/popup.png)
-[WMS](./screenshots/wms.png)
+![](https://github.com/nishantbhadrasen/forliance/blob/main/screenshots/popup.png)
+![](https://github.com/nishantbhadrasen/forliance/blob/main/screenshots/wms.png)
