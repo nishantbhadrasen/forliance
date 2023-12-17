@@ -1,0 +1,15 @@
+<header>
+  <div class="title">Task 4 with basic testing for nginit(task 5)</div>
+  <p>
+    Contains probailistic forecasts of global urban land cover change from 2000
+    at 2030 at a 2.5 arc-minute resolution.
+  </p>
+  <button (click)="refreshData()">Refresh data</button>
+  <button (click)="toggleWMSLayer()">Toggle WSM Layer</button>
+</header>
+<main>
+  <div id="ol-map" class="map-container"></div>
+  <div id="popup" class="ol-popup">
+    <div id="popup-content"></div>
+  </div>
+</main>
